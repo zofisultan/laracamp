@@ -15,6 +15,7 @@ class CampBenefit extends Model
      * @var string[]
      */
     protected $fillable = [
+        'camp_id',
         'name',
     ];
 }
